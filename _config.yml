@@ -10,8 +10,8 @@ description: > # this means to ignore newlines until "show_excerpts:"
 show_excerpts: false # set to true to show excerpts on the homepage
 
 lin:
-  date_format: "%b %-d, %Y"
-
+  #date_format: "%b %-d, %Y"
+  date_format: "%Y . %b %-d"
   # path to the author avatar image
   avatar_path: assets/images/avatar.jpg
 
