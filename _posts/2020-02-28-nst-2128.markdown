@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "NSH-2182 기본설정"
+categories: net
+tags: nst,2182
+author: hopeone
+description: 기본설정
+comments: true
+---
+
+
+###### 
+##### NSH-2128 기본설정
+
+
+```
+interface gi2
+ ip acl ssh
+ switchport mode hybrid
+ switchport hybrid allowed vlan add 101 tagged
+ no spanning-tree
+!
+
+```
